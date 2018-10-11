@@ -48,10 +48,6 @@ function game() {
     }
 
 
-    if (NbEssais == 10) {
-        window.alert("Désolé, c'est fini. Le nombre correct était : " + num);
-        location.reload();
-    }
 
 
 
