@@ -41,11 +41,10 @@ function game() {
     if (saisie > nb_random) {
         document.getElementById('res').innerHTML = "Trop grand.";
 
-    } else {
+    } else 
+    if (saisie === nb_random) {
         document.getElementById('res').innerHTML = "Gagné !";
-        alert('Le nombre tirer au hasard était : ' + nb_random);
-
-
+        
     }
 
 
