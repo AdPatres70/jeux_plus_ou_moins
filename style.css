@@ -28,8 +28,10 @@ h2{
 .label{
     font-size: 20px;
     text-align: center;
-    margin: 20px;
-    padding: 20px;
+    margin: 10px;
+    padding: 6px;
+    margin-bottom: 30px;
+
 }
 
 .boutton{
@@ -38,6 +40,7 @@ h2{
     margin: 12px;
     padding: 12px;
     margin-bottom:80px; 
+    margin-left: -16px;
     
 }
 
@@ -79,3 +82,12 @@ footer{
     
     
 }
+.essai{
+    font-size: 27px;
+    text-align: center;
+}
+
+.defaut{
+
+}
+

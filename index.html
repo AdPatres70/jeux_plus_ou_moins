@@ -1,43 +1,11 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=0.4, maximum-scale=0.4"/>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css" />
-        <link href="https://fonts.googleapis.com/css?family=Niramit" rel="stylesheet">
-        <title>Plus ou Moins</title>
-    </head>
-  
-    <body>
-        <header> <h1>Le jeu du + ou - </h1></header>
-         <h2>Le jeu le plus addictif au monde </h2>
-         <p class="description">Nous sélectionnons un numero au hasard entre 0 et 100 , a vous de le trouvez!!</p>
-       
-         
-         <p id="res"></p>
-
-            <p>
-                <div class="label">
-                   <label for="nb">Votre nombre : </label>
-                   <input id="nb" type="nombre" name="nb" maxlength="3" placeholder="Ex : 100"/><br/>
-                </div>
-                <div class="boutton">
-                <input id="clickme" type="button" value="Validé"/>
-                <input type="button" onclick="javascript:if(confirm('vous êtes sûr ?')) location.href = 'index.html';" value="Annuler">
-                </div>
-                
-                
-            </p>
-       
-        
-         
-       
-      
 
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=0.4, maximum-scale=0.4" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css?family=Niramit" rel="stylesheet">
     <title>Plus ou Moins</title>
@@ -47,35 +15,53 @@
     <header>
         <h1>Le jeu du + ou - </h1>
     </header>
-    <p>Nombre d'essais restants : <span id="nbEssai">10</span></p>
+
     <h2>Le jeu le plus addictif au monde </h2>
+    <p class="description">Nous sélectionnons un numero au hasard entre 0 et 100 , a vous de le trouvez!!</p>
 
 
     <p>
-        <label for="nb">Votre nombre : </label>
-        <input id="nb" type="nombre" name="nb" placeholder="Ex : 100" /><br />
-        <input id="clickme" type="button" value="Validé" />
-    
-            
+        <div class="label">
+            <label for="nb">Votre nombre : </label>
+            <input id="nb" type="nombre" name="nb" placeholder="Ex : 100" /><br />
+        </div>
+        <div class="essai">
+                <p>Nombre d'essais restants : <span id="nbEssai">10</span></p>
+            </div>
+        <div class="defaut">
+            <p id="res"></p>
+        </div>
+        <div class="boutton">
+            <input id="clickme" type="button" value="Validé" />
+            <input type="button" onclick="javascript:if(confirm('vous êtes sûr ?')) location.href = 'index.html';" value="Annuler">
+
+
+        </div>
+      
+
+
     </p>
 
-    <p id="res"></p>
 
-    
+
+
 
 
 
     <footer>
         <nav>
             <div class="textfooter">
-                <p>© 2018 </p> 
+                <p>© 2018 </p>
             </div>
         </nav>
 
     </footer>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
     <script type="text/javascript" src="app.js"></script>
 </body>
 
